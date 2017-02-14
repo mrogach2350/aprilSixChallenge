@@ -1,10 +1,14 @@
 body {
   text-align: center;
 }
+main {
+  height: 50vh;
+}
 .container {
   width: 100vw;
-  height: auto;
+  height: 55vh;
   background-image: url('../Assets/GettyImages-183217184_HR_d1.jpg');
+  margin-bottom: 35px;
 }
 #headerLogo {
   padding-top: 20px;
@@ -12,25 +16,60 @@ body {
   margin: 0 auto;
 }
 #phone {
+  position: fixed;
+  top: 0px;
+  right: 0px;
   color: white;
-  font-weight: lighter;
+  font-size: 15px;
 }
 #heroTop {
   color: rgba(32, 248, 222, 1);
-  font-size: 3em;
+  font-size: 5em;
   font-weight: 900;
+  margin-top: 15vh;
+  margin-bottom: 0;
 }
 #heroBot {
+  margin-top:5px;
   color: white;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 #heroTop, #heroBot {
   font-style: italic;
 }
+
+#intro {
+  text-align: justify;
+  width: 60%;
+  margin: 0 20%;
+  font-size: 20px;
+}
+.box {
+  text-align: left;
+  background-color: rgba(236, 236, 234, 1);
+  padding: 10px;
+  max-width: 90%;
+  margin-top: 15px;
+}
+.boxImg {
+  display: block;
+  margin: 25px auto;
+}
+.btn  {
+  display: block;
+  margin: 0 auto;
+  background-color: #CA2A60;
+  color: white;
+  border-radius: 0;
+}
+.btn:focus, .btn:hover {
+  background-color: #A90163;
+  color:white;
+}
 #footerLogo {
   display: block;
-  left: 45%;
-  right: 45%;
-  width: 10%;
+  margin: auto;
   bottom: 15px;
-  position: absolute;
+  margin-top: 25px;
 }
