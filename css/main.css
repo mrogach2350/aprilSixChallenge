@@ -1,8 +1,8 @@
 body {
   text-align: center;
 }
-main {
-  height: 50vh;
+span {
+  font-weight: bolder;
 }
 .container {
   width: 100vw;
@@ -67,9 +67,13 @@ main {
   background-color: #A90163;
   color:white;
 }
+.pinkImg {
+  max-height: 55px;
+  width: auto;
+}
 #footerLogo {
-  display: block;
-  margin: auto;
-  bottom: 15px;
-  margin-top: 25px;
+  margin-left: 45%;
+  margin-right: 45%;
+  width: 10%;
+  bottom: 5px;
 }
