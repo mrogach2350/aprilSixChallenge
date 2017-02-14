@@ -1,1 +1,36 @@
-
+body {
+  text-align: center;
+}
+.container {
+  width: 100vw;
+  height: auto;
+  background-image: url('../Assets/GettyImages-183217184_HR_d1.jpg');
+}
+#headerLogo {
+  padding-top: 20px;
+  display: block;
+  margin: 0 auto;
+}
+#phone {
+  color: white;
+  font-weight: lighter;
+}
+#heroTop {
+  color: rgba(32, 248, 222, 1);
+  font-size: 3em;
+  font-weight: 900;
+}
+#heroBot {
+  color: white;
+}
+#heroTop, #heroBot {
+  font-style: italic;
+}
+#footerLogo {
+  display: block;
+  left: 45%;
+  right: 45%;
+  width: 10%;
+  bottom: 15px;
+  position: absolute;
+}
